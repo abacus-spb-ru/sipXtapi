@@ -1,0 +1,22 @@
+﻿  add.c
+  code.c
+  debug.c
+  decode.c
+  gsm_create.c
+  gsm_decode.c
+  gsm_destroy.c
+  gsm_encode.c
+  gsm_explode.c
+  gsm_implode.c
+  gsm_option.c
+  gsm_print.c
+  long_term.c
+  lpc.c
+  preprocess.c
+  rpe.c
+  short_term.c
+  table.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1498,5): warning MSB8012: TargetPath(C:\work\sipX\Release\libgsm.lib) does not match the Library's OutputFile property value (C:\work\sipX\sipXmediaLib\contrib\libgsm\lib\gsm.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1500,5): warning MSB8012: TargetName(libgsm) does not match the Library's OutputFile property value (gsm). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  libgsm-msvc16.vcxproj -> C:\work\sipX\Release\libgsm.lib

@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXtackLibTest", "sipXtackLibTest.vcproj", "{AB8F7343-BC81-4077-B1A5-37CA389FCA93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091} = {14631055-9D3F-47E5-B6A7-16BFC0CC8091}
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646} = {0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXtackLib", "sipXtackLib.vcproj", "{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXportLib", "..\sipXportLib\sipXportLib_NoSecurity.vcproj", "{14631055-9D3F-47E5-B6A7-16BFC0CC8091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_NoVideo|Win32 = Debug_NoVideo|Win32
+		Debug|Win32 = Debug|Win32
+		Release_NoVideo|Win32 = Release_NoVideo|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA93}.Debug_NoVideo|Win32.ActiveCfg = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA93}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA93}.Release_NoVideo|Win32.ActiveCfg = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA93}.Release|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug_NoVideo|Win32.ActiveCfg = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug_NoVideo|Win32.Build.0 = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug|Win32.Build.0 = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release_NoVideo|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release_NoVideo|Win32.Build.0 = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release|Win32.Build.0 = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug_NoVideo|Win32.ActiveCfg = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug_NoVideo|Win32.Build.0 = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug|Win32.Build.0 = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release_NoVideo|Win32.ActiveCfg = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release_NoVideo|Win32.Build.0 = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release|Win32.ActiveCfg = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

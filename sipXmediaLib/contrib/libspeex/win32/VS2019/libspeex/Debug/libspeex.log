@@ -1,0 +1,278 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  window.c
+  vq.c
+  vbr.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(87,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(88,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(94,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(141,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(148,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(149,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(151,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(153,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(169,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(170,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(179,61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(180,64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(186,17): warning C4305: '-=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(188,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(190,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(193,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(194,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(203,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(205,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(217,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(218,56): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(221,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(239,58): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(246,57): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(248,57): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(251,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(123,67): warning C4100: 'pitch': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\vbr.c(270,28): warning C4100: 'vbr': unreferenced formal parameter
+  stereo.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(118,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(128,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(135,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(171,53): warning C4244: '=': conversion from 'double' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(196,38): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(197,26): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(198,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(213,39): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(293,46): warning C4244: '=': conversion from 'unsigned int' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(295,40): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\stereo.c(281,68): warning C4100: 'state': unreferenced formal parameter
+  speex_header.c
+  speex_callbacks.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(75,66): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(83,70): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(91,71): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(100,65): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(109,65): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(121,46): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(118,73): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(130,44): warning C4244: '=': conversion from 'unsigned int' to 'unsigned char', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(127,58): warning C4100: 'state': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(139,75): warning C4100: 'data': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\speex_callbacks.c(139,62): warning C4100: 'state': unreferenced formal parameter
+  speex.c
+  sb_celp.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(85,84): warning C4305: 'initializing': truncation from 'double' to 'const spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(88,78): warning C4305: 'initializing': truncation from 'double' to 'const spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(338,20): warning C4244: '=': conversion from 'spx_int32_t' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(443,41): warning C4127: conditional expression is constant
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(305,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(625,59): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(628,64): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(649,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(651,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(653,31): warning C4305: '=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(663,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(675,45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(698,80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(780,98): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(781,101): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(803,37): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(867,73): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(1341,101): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(1361,40): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(1371,62): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(1387,70): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\sb_celp.c(1428,42): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+  quant_lsp.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(83,31): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(91,38): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(172,43): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(176,34): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(207,34): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(220,27): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(225,60): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(229,64): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(233,65): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(237,69): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(241,70): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(258,43): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(261,32): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(280,34): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(293,27): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(298,46): warning C4244: '+=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(302,50): warning C4244: '+=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(306,53): warning C4244: '+=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(337,48): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(340,34): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(356,34): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(371,32): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(376,55): warning C4244: '+=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\quant_lsp.c(381,56): warning C4244: '+=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+  nb_celp.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(261,20): warning C4244: '=': conversion from 'spx_int32_t' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(522,20): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(523,21): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(598,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(600,31): warning C4305: '=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(602,32): warning C4305: '=': truncation from 'double' to 'float'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(669,80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(754,68): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(765,81): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(784,40): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(857,7): warning C4127: conditional expression is constant
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1217,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1268,104): warning C4305: 'initializing': truncation from 'double' to 'const spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1301,21): warning C4305: '=': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1311,33): warning C4244: 'function': conversion from 'int' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1322,27): warning C4305: 'function': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1495,34): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1519,81): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1530,40): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1617,45): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\nb_celp.c(1815,43): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+  modes_wb.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes_wb.c(202,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes_wb.c(248,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+  modes.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(220,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(241,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(262,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(304,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(325,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\modes.c(347,1): warning C4305: 'initializing': truncation from 'double' to 'spx_word16_t'
+  ltp.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(485,34): warning C4244: '*=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(486,34): warning C4244: '*=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(487,34): warning C4244: '*=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(498,54): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(499,54): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(500,54): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(508,12): warning C4456: declaration of 'j' hides previous local declaration
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(372,10): message : see declaration of 'j'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(509,15): warning C4456: declaration of 'tmp1' hides previous local declaration
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(373,4): message : see declaration of 'tmp1'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(369,5): warning C4100: 'scaledown': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(361,12): warning C4100: 'bits': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(644,88): warning C4244: '=': conversion from 'double' to 'spx_word32_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(544,14): warning C4100: 'pitch_coef': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(702,49): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(703,51): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(704,51): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(718,20): warning C4305: '=': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(720,44): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(716,1): warning C4244: 'initializing': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(674,7): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(668,14): warning C4100: 'pitch_coef': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(667,7): warning C4100: 'end': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(795,21): warning C4305: '=': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(784,15): warning C4100: 'cumul_gain': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(783,5): warning C4100: 'plc_tuning': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(782,5): warning C4100: 'cdbk_offset': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(781,5): warning C4100: 'complexity': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(780,15): warning C4100: 'r': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(777,12): warning C4100: 'bits': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(773,7): warning C4100: 'end': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(771,13): warning C4100: 'par': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(766,15): warning C4100: 'sw': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(840,21): warning C4305: '=': truncation from 'double' to 'spx_word16_t'
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(831,5): warning C4100: 'cdbk_offset': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(830,14): warning C4100: 'last_pitch_gain': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(829,5): warning C4100: 'subframe_offset': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(828,5): warning C4100: 'count_lost': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(827,7): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(826,12): warning C4100: 'bits': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(822,13): warning C4100: 'par': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\ltp.c(820,7): warning C4100: 'end': unreferenced formal parameter
+  lsp_tables_nb.c
+  lsp.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(197,31): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(178,77): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(336,33): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(363,36): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(378,30): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lsp.c(632,43): warning C4244: '=': conversion from 'double' to 'spx_lsp_t', possible loss of data
+  lpc.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\lpc.c(94,32): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+  high_lsp_tables.c
+  hexc_table.c
+  hexc_10_32_table.c
+  gain_table_lbr.c
+  Generating Code...
+  Compiling...
+  gain_table.c
+  filters.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(37,97): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(90,96): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(134,118): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(144,75): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(193,74): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(233,96): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(242,75): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(290,74): warning C4100: 'ord': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters_sse.h(330,96): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(315,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(749,56): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(750,64): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(751,49): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(781,28): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(782,28): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(803,67): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(804,67): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(806,67): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(807,67): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(671,5): warning C4100: 'p': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\filters.c(670,13): warning C4100: 'ak': unreferenced formal parameter
+  exc_8_128_table.c
+  exc_5_64_table.c
+  exc_5_256_table.c
+  exc_20_32_table.c
+  exc_10_32_table.c
+  exc_10_16_table.c
+  cb_search.c
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(57,27): warning C4244: 'return': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(91,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(116,12): warning C4244: 'return': conversion from 'int' to 'spx_int16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\math_approx.h(323,17): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search_sse.h(71,50): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search_sse.h(71,82): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search_sse.h(71,116): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search_sse.h(71,150): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(199,75): warning C4244: '=': conversion from 'double' to 'spx_sig_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(220,54): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(445,57): warning C4244: '=': conversion from 'double' to 'spx_word16_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(499,72): warning C4244: '=': conversion from 'double' to 'spx_sig_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(574,74): warning C4244: '+=': conversion from 'double' to 'spx_sig_t', possible loss of data
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(527,14): warning C4100: 'seed': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(524,7): warning C4100: 'nsf': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(594,7): warning C4100: 'update_target': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(593,7): warning C4100: 'complexity': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(591,12): warning C4100: 'bits': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(590,15): warning C4100: 'r': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(586,13): warning C4100: 'par': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(614,7): warning C4100: 'stack': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(613,12): warning C4100: 'bits': unreferenced formal parameter
+C:\work\sipX\sipXmediaLib\contrib\libspeex\libspeex\cb_search.c(611,13): warning C4100: 'par': unreferenced formal parameter
+  bits.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1498,5): warning MSB8012: TargetPath(C:\work\sipX\sipXmediaLib\contrib\libspeex\win32\VS2019\libspeex\Debug\libspeex.lib) does not match the Library's OutputFile property value (C:\work\sipX\sipXmediaLib\contrib\libspeex\lib\libspeex.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  libspeex.vcxproj -> C:\work\sipX\sipXmediaLib\contrib\libspeex\win32\VS2019\libspeex\Debug\libspeex.lib

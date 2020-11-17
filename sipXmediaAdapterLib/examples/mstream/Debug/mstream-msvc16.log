@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (mstream-msvc16.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  mstream.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(C:\work\sipX\sipXmediaAdapterLib\examples\mstream\Debug\mstream.exe) does not match the Linker's OutputFile property value (C:\work\sipX\sipXmediaAdapterLib\examples\mstream\bin\mstream.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+mstream.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+LINK : fatal error LNK1181: cannot open input file 'C:\work\sipX\sipXportLib\Debug\sipXportLib.lib'

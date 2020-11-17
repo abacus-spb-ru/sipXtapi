@@ -1,0 +1,76 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXsdpLib", "sipXsdpLib.vcproj", "{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091} = {14631055-9D3F-47E5-B6A7-16BFC0CC8091}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXsdpLibTest", "sipXsdpLibTest.vcproj", "{AB8F7343-BC81-4077-B1A5-37CA389FCA94}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6} = {E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646} = {0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXportLib", "..\sipXportLib\sipXportLib.vcproj", "{14631055-9D3F-47E5-B6A7-16BFC0CC8091}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sipXtackLib", "..\sipXtackLib\sipXtackLib_NoSecurity.vcproj", "{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_SSL|Win32 = Debug_SSL|Win32
+		Debug|Win32 = Debug|Win32
+		Release_SSL|Win32 = Release_SSL|Win32
+		Release|Win32 = Release|Win32
+		SSL-Debug|Win32 = SSL-Debug|Win32
+		SSL-Release|Win32 = SSL-Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Debug_SSL|Win32.ActiveCfg = Debug|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Debug_SSL|Win32.Build.0 = Debug|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Debug|Win32.ActiveCfg = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Debug|Win32.Build.0 = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Release_SSL|Win32.ActiveCfg = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Release_SSL|Win32.Build.0 = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.Release|Win32.Build.0 = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.SSL-Debug|Win32.ActiveCfg = Debug|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.SSL-Debug|Win32.Build.0 = Debug|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.SSL-Release|Win32.ActiveCfg = Release|Win32
+		{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}.SSL-Release|Win32.Build.0 = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Debug_SSL|Win32.ActiveCfg = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Debug_SSL|Win32.Build.0 = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Debug|Win32.Build.0 = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Release_SSL|Win32.ActiveCfg = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Release_SSL|Win32.Build.0 = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Release|Win32.ActiveCfg = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.Release|Win32.Build.0 = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.SSL-Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.SSL-Debug|Win32.Build.0 = Debug|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.SSL-Release|Win32.ActiveCfg = Release|Win32
+		{AB8F7343-BC81-4077-B1A5-37CA389FCA94}.SSL-Release|Win32.Build.0 = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug_SSL|Win32.ActiveCfg = Debug_SSL|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug_SSL|Win32.Build.0 = Debug_SSL|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release_SSL|Win32.ActiveCfg = Release_SSL|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release_SSL|Win32.Build.0 = Release_SSL|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.Release|Win32.ActiveCfg = Release|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.SSL-Debug|Win32.ActiveCfg = Debug|Win32
+		{14631055-9D3F-47E5-B6A7-16BFC0CC8091}.SSL-Release|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug_SSL|Win32.ActiveCfg = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug_SSL|Win32.Build.0 = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Debug|Win32.Build.0 = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release_SSL|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release_SSL|Win32.Build.0 = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.Release|Win32.Build.0 = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.SSL-Debug|Win32.ActiveCfg = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.SSL-Debug|Win32.Build.0 = Debug|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.SSL-Release|Win32.ActiveCfg = Release|Win32
+		{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}.SSL-Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+#
+#
+# Copyright (C) 2010 SIPfoundry Inc.
+# Licensed by SIPfoundry under the LGPL license.
+#
+# Copyright (C) 2010 SIPez LLC All rights reserved.
+# Licensed to SIPfoundry under a Contributor Agreement.
+#
+# $$
+# Author: Daniel Petrie
+#         dpetrie AT SIPez DOT com
+#////////////////////////////////////////////////////////////////////////////
+#
+# This make files is used to build test executables for testing the unit test.
+# i.e. a test of the test framework.  It is not used for production use of the
+# unit test suite.
+
+
+unitexec : SipxPortUnitTest*.cpp main.cpp foo.cpp bar.cpp
+	g++ -I. -g -rdynamic SipxPortUnitTest*.cpp main.cpp foo.cpp bar.cpp -o unitexec

@@ -1,0 +1,398 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "libgsm"=..\sipXmediaLib\contrib\libgsm\libgsm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libspandsp"=..\sipXmediaLib\contrib\libspandsp\libspandsp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libspeex"=..\sipXmediaLib\contrib\libspeex\win32\libspeex\libspeex.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgg722"=..\sipXmediaLib\src\mp\codecs\plgg722\plgg722.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgg726"=..\sipXmediaLib\src\mp\codecs\plgg726\plgg726.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plggsm"=..\sipXmediaLib\src\mp\codecs\plggsm\plggsm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgl16"=..\sipXmediaLib\src\mp\codecs\plgl16\plgl16.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgpcmapcmu"=..\sipXmediaLib\src\mp\codecs\plgpcmapcmu\plgpcmapcmu.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgspeex"=..\sipXmediaLib\src\mp\codecs\plgspeex\plgspeex.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plgtones"=..\sipXmediaLib\src\mp\codecs\plgtones\plgtones.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXcallLib"=.\sipXcallLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXtapi"=.\sipXtapi\sipXtapi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXcallLibTest"=.\sipXcallLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libspeex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXtapi
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXcallLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaAdapterLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXtackLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXmediaAdapterLib"=..\sipXmediaAdapterLib\sipXmediaAdapterLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXmediaAdapterLibTest"=..\sipXmediaAdapterLib\sipXmediaAdapterLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaAdapterLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libspeex
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXmediaLib"=..\sipXmediaLib\sipXmediaLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXmediaLibTest"=..\sipXmediaLib\sipXmediaLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libspeex
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXportLib"=..\sipXportLib\sipXportLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXportLibTest"=..\sipXportLib\sipXportLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXsdpLib"=..\sipXsdpLib\sipXsdpLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXsdpLibTest"=..\sipXsdpLib\sipXsdpLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXtackLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXtackLib"=..\sipXtackLib\sipXtackLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sipXtackLibTest"=..\sipXtackLib\sipXtackLibTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXtackLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sipXtapiTest"=.\sipXtapiTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libspeex
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXcallLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaAdapterLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXmediaLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXportLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXsdpLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sipXtackLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

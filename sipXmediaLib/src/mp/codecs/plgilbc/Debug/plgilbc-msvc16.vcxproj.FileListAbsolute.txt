@@ -1,0 +1,1 @@
+C:\work\sipX\sipXmediaLib\src\mp\codecs\plgilbc\Debug\plgilbc.pdb
