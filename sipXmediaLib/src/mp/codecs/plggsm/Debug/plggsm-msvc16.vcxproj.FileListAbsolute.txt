@@ -1,1 +1,0 @@
-C:\work\sipX\sipXmediaLib\src\mp\codecs\plggsm\Debug\plggsm.pdb

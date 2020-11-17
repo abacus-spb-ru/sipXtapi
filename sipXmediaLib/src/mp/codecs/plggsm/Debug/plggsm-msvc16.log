@@ -1,9 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (plggsm-msvc16.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  PlgGsm.c
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(C:\work\sipX\sipXmediaLib\src\mp\codecs\plggsm\Debug\plggsm.dll) does not match the Linker's OutputFile property value (C:\work\sipX\sipXmediaLib\bin\codec_gsm.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1318,5): warning MSB8012: TargetName(plggsm) does not match the Linker's OutputFile property value (codec_gsm). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  LINK : program database C:\work\sipX\sipXmediaLib\src\mp\codecs\plggsm\Debug\plggsm.pdb missing; performing full link
-gsmd.lib(gsm_create.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-     Creating library Debug\plggsm.lib and object Debug\plggsm.exp
-  plggsm-msvc16.vcxproj -> C:\work\sipX\sipXmediaLib\src\mp\codecs\plggsm\Debug\plggsm.dll

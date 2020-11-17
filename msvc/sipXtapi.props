@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+
+  <PropertyGroup>    
+    <PreprocessorDef></PreprocessorDef>
+    <DefaultToolset>v141</DefaultToolset>
+	<BuildToolset>v141</BuildToolset>
+  </PropertyGroup>  
+
+  <PropertyGroup>
+    <OutDir Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)\bin\</OutDir>
+    <OutDir Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\</OutDir>
+    <OutDir Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\</OutDir>
+    <TargetName>$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration)</TargetName>
+    <IntDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(BuildToolset)-$(Configuration)\</IntDir>
+  </PropertyGroup>
+  
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <CompileAs>Default</CompileAs>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(SolutionDir)\bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration).lib</OutputFile>
+    </Lib>
+    <Link>
+      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration).exe</OutputFile>
+      <GenerateWindowsMetadata Condition="'$(TargetExt)'=='.lib'">false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+ 
+
+</Project>

@@ -1,1 +1,0 @@
-C:\work\sipX\sipXmediaLib\contrib\libilbc\VS2019\Debug\libilbc.pdb

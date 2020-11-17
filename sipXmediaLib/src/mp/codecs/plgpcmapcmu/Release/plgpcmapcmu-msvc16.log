@@ -1,9 +1,0 @@
-﻿  CodecPcmaWrapper.c
-  CodecPcmuWrapper.c
-  G711.c
-  PlgPcmaPcmu.c
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(C:\work\sipX\sipXmediaLib\src\mp\codecs\plgpcmapcmu\Release\plgpcmapcmu.dll) does not match the Linker's OutputFile property value (C:\work\sipX\sipXmediaLib\bin\codec_pcmapcmu.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1318,5): warning MSB8012: TargetName(plgpcmapcmu) does not match the Linker's OutputFile property value (codec_pcmapcmu). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     Creating library Release\plgpcmapcmu.lib and object Release\plgpcmapcmu.exp
-  plgpcmapcmu-msvc16.vcxproj -> C:\work\sipX\sipXmediaLib\src\mp\codecs\plgpcmapcmu\Release\plgpcmapcmu.dll
