@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{214007F3-D6E8-4B07-AC00-9FB673FF539E}</ProjectGuid>
-    <RootNamespace>libilbc-msvc16</RootNamespace>
+    <RootNamespace>libilbc</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>libilbc</ProjectName>
   </PropertyGroup>

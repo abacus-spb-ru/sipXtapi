@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-	<Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
+    <Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
   </ImportGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6442C7DE-E500-4BA2-B821-98092F1EDCAF}</ProjectGuid>
-    <RootNamespace>plgilbc-msvc16</RootNamespace>
+    <RootNamespace>plgilbc</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>plgilbc</ProjectName>
   </PropertyGroup>
@@ -47,11 +47,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
-    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
-    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -66,7 +64,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libilbcd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libilbc.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>..\..\..\..\bin\codec_ilbc.dll</OutputFile>
       <AdditionalLibraryDirectories>..\..\..\..\contrib\libilbc\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>

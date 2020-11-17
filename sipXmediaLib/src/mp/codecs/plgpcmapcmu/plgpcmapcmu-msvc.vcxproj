@@ -24,7 +24,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A9C94D26-C90D-4860-8195-56929E893757}</ProjectGuid>
-    <RootNamespace>plgpcmapcmu-msvc16</RootNamespace>
+    <RootNamespace>plgpcmapcmu</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>plgpcmapcmu</ProjectName>
   </PropertyGroup>
@@ -73,11 +73,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
-    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
-    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

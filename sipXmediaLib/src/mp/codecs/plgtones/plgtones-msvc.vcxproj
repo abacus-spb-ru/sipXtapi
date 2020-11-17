@@ -24,7 +24,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F3BCA14E-F24D-4570-833E-8C20C4C393F7}</ProjectGuid>
-    <RootNamespace>plgtones-msvc16</RootNamespace>
+    <RootNamespace>plgtones</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>plgtones</ProjectName>
   </PropertyGroup>
@@ -69,12 +69,7 @@
   <PropertyGroup>
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
+
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>

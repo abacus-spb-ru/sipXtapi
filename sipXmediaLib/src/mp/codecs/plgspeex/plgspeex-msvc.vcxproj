@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-	<Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
+    <Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
   </ImportGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug_Static|Win32">
@@ -24,7 +24,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4F7FDA11-42A4-4556-A631-15AA785CD1C1}</ProjectGuid>
-    <RootNamespace>plgspeex-msvc16</RootNamespace>
+    <RootNamespace>plgspeex</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>plgspeex</ProjectName>
   </PropertyGroup>
@@ -70,9 +70,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

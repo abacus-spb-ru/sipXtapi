@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-	<Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
+    <Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
   </ImportGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E1D81EA9-4AC3-4CF5-B600-090FD822B1F6}</ProjectGuid>
-    <RootNamespace>sipXsdpLib-msvc16</RootNamespace>
+    <RootNamespace>sipXsdpLib</RootNamespace>
     <ProjectName>sipXsdpLib</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

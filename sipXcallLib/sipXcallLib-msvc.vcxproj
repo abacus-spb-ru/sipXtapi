@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0EADF7C3-7D48-45BF-A00D-ECB94DC912EA}</ProjectGuid>
-    <RootNamespace>sipXcallLib-msvc16</RootNamespace>
+    <RootNamespace>sipXcallLib</RootNamespace>
     <ProjectName>sipXcallLib</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -13,7 +13,8 @@
     <!--OutDir Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
     <!--OutDir Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
     <!--OutDir Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
-    <IntDir>$(SolutionDir)\bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\</IntDir>
+	<ProfileGuidedDatabase>$(SolutionDir)bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\PGB</ProfileGuidedDatabase>
   </PropertyGroup>
   
 	<PropertyGroup>
@@ -33,11 +34,12 @@
       <SDLCheck>false</SDLCheck>
     </ClCompile>
     <Lib>
-      <OutputFile>$(SolutionDir)\bin\$(ProjectName).lib</OutputFile>
+      <OutputFile>$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
     </Lib>
     <Link>
-      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(ProjectName).exe</OutputFile>
-      <OutputFile Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\$(ProjectName).dll</OutputFile>
+      <OutputFile Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
+      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).exe</OutputFile>
+      <OutputFile Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).dll</OutputFile>
       <GenerateWindowsMetadata Condition="'$(TargetExt)'=='.lib'">false</GenerateWindowsMetadata>
     </Link>
   </ItemDefinitionGroup>

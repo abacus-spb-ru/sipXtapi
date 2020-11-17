@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-	<Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
+    <Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
   </ImportGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{14441867-4291-4174-812E-00C774370C61}</ProjectGuid>
-    <RootNamespace>PlaceCall-msvc16</RootNamespace>
+    <RootNamespace>PlaceCall</RootNamespace>
     <ProjectName>PlaceCall</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -45,12 +45,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
@@ -84,8 +78,7 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>copy ..\..\..\..\pcre\bin\pcre3.dll ..\bin
-copy ..\..\..\sipXmediaLib\contrib\libopus\libogg\win32\VS2019\Win32\$(Configuration)DLL\libogg.dll ..\bin\ogg.dll
+      <Command>copy ..\..\..\sipXmediaLib\contrib\libopus\libogg\win32\VS2019\Win32\$(Configuration)DLL\libogg.dll ..\bin\ogg.dll
 copy ..\..\..\sipXmediaLib\contrib\libopus\opus\win32\VS2019\Win32\$(Configuration)DLL\opus.dll ..\bin
 copy ..\..\..\sipXmediaLib\contrib\libopus\libopusenc\win32\VS2019\Win32\$(Configuration)DLL\opusenc.dll ..\bin
 copy ..\..\..\sipXcallLib\bin\sipXtapi.dll ..\bin</Command>
@@ -124,11 +117,8 @@ copy ..\..\..\sipXcallLib\bin\sipXtapi.dll ..\bin</Command>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>copy ..\..\..\..\pcre\bin\pcre3.dll ..\bin
-copy ..\..\..\sipXmediaLib\contrib\libopus\libogg\win32\VS2019\Win32\$(Configuration)DLL\libogg.dll ..\bin\ogg.dll
-copy ..\..\..\sipXmediaLib\contrib\libopus\opus\win32\VS2019\Win32\$(Configuration)DLL\opus.dll ..\bin
-copy ..\..\..\sipXmediaLib\contrib\libopus\libopusenc\win32\VS2019\Win32\$(Configuration)DLL\opusenc.dll ..\bin
-copy ..\..\..\sipXcallLib\bin\sipXtapid.dll ..\bin</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

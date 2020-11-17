@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-	<Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
+    <Import Project="$(SolutionDir)\config-msvc\sipXtapi.props" />
   </ImportGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug-NoHTTP|Win32">
@@ -65,14 +65,6 @@
     <ClCompile Include="..\..\src\opusfile.c" />
     <ClCompile Include="..\..\src\stream.c" />
     <ClCompile Include="..\..\src\wincerts.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\libogg\win32\VS2019\libogg.vcxproj">
-      <Project>{aff27a26-c088-444b-bc2a-0ba94a02afa7}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\opus\win32\VS2019\opus.vcxproj">
-      <Project>{219ec965-228a-1824-174d-96449d05f88a}</Project>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1A4B5203-52EB-4805-9511-84B1BD094FCA}</ProjectGuid>

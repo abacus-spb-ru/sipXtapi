@@ -16,7 +16,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{993B6878-2EA7-49E0-AC6E-28C68592724B}</ProjectGuid>
-    <RootNamespace>libgsm-msvc16</RootNamespace>
+    <RootNamespace>libgsm</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>libgsm</ProjectName>
   </PropertyGroup>
