@@ -17,7 +17,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{85CAC56D-4E3A-4712-91A5-AE724B11AE25}</ProjectGuid>
     <RootNamespace>sipXtapi</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>sipXtapi</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -88,7 +87,6 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>Ws2_32.lib;pcre.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>bin\sipXtapi.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\pcre\lib;lib;..\sipXmediaLib\contrib\libgsm\lib;..\sipXmediaLib\contrib\libspeex\lib;..\..\libiLBC\Release;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Release;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile />
@@ -96,7 +94,6 @@
       <GenerateMapFile>true</GenerateMapFile>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <ImportLibrary>lib\sipXtapi.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
@@ -145,14 +142,12 @@ copy include\tapi\sipXtapiEvents.h examples\include\tapi
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>Ws2_32.lib;pcre.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>bin\sipXtapid.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\pcre\lib;lib;..\sipXmediaLib\contrib\libgsm\lib;..\sipXmediaLib\contrib\libspeex\lib;..\..\libiLBC\Debug;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Debug;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libcmt.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ModuleDefinitionFile />
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
-      <ImportLibrary>lib\sipXtapid.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
@@ -229,27 +224,27 @@ copy include\tapi\sipXtapiEvents.h examples\include\tapi
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\sipXmediaAdapterLib\sipXmediaAdapterLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXmediaAdapterLib\sipXmediaAdapterLib-msvc.vcxproj">
       <Project>{9501c518-8693-42f3-86a4-39b14983ec6c}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\sipXmediaLib\sipXmediaLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXmediaLib\sipXmediaLib-msvc.vcxproj">
       <Project>{0ec8287a-481e-45dc-8f95-bad940ae1038}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\sipXportLib\sipXportLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXportLib\sipXportLib-msvc.vcxproj">
       <Project>{14631055-9d3f-47e5-b6a7-16bfc0cc8091}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\sipXsdpLib\sipXsdpLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXsdpLib\sipXsdpLib-msvc.vcxproj">
       <Project>{e1d81ea9-4ac3-4cf5-b600-090fd822b1f6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\sipXtackLib\sipXtackLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXtackLib\sipXtackLib-msvc.vcxproj">
       <Project>{0d0ce4bc-3884-4abe-9795-8cca6c3bc646}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="sipXcallLib-msvc16.vcxproj">
+    <ProjectReference Include="sipXcallLib-msvc.vcxproj">
       <Project>{0eadf7c3-7d48-45bf-a00d-ecb94dc912ea}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

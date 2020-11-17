@@ -17,7 +17,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0FF92063-90A6-41B2-947B-AD3ADAE06FAC}</ProjectGuid>
     <RootNamespace>ReceiveCall-msvc16</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>ReceiveCall</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -48,13 +47,9 @@
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -81,7 +76,6 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>Ws2_32.lib;pcre.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\bin\ReceiveCall_dbg.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\..\..\pcre\lib;..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -122,7 +116,6 @@ copy ..\..\..\sipXmediaLib\contrib\libopus\libopusenc\win32\VS2019\Win32\$(Confi
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>Ws2_32.lib;pcre.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\bin\ReceiveCall.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>C:\work\pcre\lib;..\..\..\..\pcre\lib;..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/ReceiveCall.pdb</ProgramDatabaseFile>
@@ -151,10 +144,10 @@ copy ..\..\..\sipXmediaLib\contrib\libopus\libopusenc\win32\VS2019\Win32\$(Confi
     <ClInclude Include="include\ReceiveCallWntApp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sipXportLib\sipXportLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\..\sipXportLib\sipXportLib-msvc.vcxproj">
       <Project>{14631055-9d3f-47e5-b6a7-16bfc0cc8091}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\sipXtapi-msvc16.vcxproj">
+    <ProjectReference Include="..\..\sipXtapi-msvc.vcxproj">
       <Project>{85cac56d-4e3a-4712-91a5-ae724b11ae25}</Project>
     </ProjectReference>
   </ItemGroup>

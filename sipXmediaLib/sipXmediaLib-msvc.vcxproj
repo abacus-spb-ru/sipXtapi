@@ -46,14 +46,6 @@
   <PropertyGroup>
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
@@ -78,7 +70,6 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)sipXmediaLib.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
   </ItemDefinitionGroup>
@@ -107,7 +98,6 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)sipXmediaLib.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
   </ItemDefinitionGroup>
@@ -473,7 +463,7 @@
     <ClInclude Include="include\rtcp\TLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\sipXtackLib\sipXtackLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXtackLib\sipXtackLib-msvc.vcxproj">
       <Project>{0d0ce4bc-3884-4abe-9795-8cca6c3bc646}</Project>
     </ProjectReference>
     <ProjectReference Include="contrib\libopus\libogg\win32\VS2019\libogg.vcxproj">
@@ -492,23 +482,23 @@
       <Project>{e42fdc95-7243-4219-9ea4-acce4ab97197}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="src\mp\codecs\plggsm\plggsm-msvc16.vcxproj">
+    <ProjectReference Include="src\mp\codecs\plggsm\plggsm-msvc.vcxproj">
       <Project>{8ae1ab5c-9815-42d8-9a09-0b4f1e64b4bb}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="src\mp\codecs\plgilbc\plgilbc-msvc16.vcxproj">
+    <ProjectReference Include="src\mp\codecs\plgilbc\plgilbc-msvc.vcxproj">
       <Project>{6442c7de-e500-4ba2-b821-98092f1edcaf}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="src\mp\codecs\plgpcmapcmu\plgpcmapcmu-msvc16.vcxproj">
+    <ProjectReference Include="src\mp\codecs\plgpcmapcmu\plgpcmapcmu-msvc.vcxproj">
       <Project>{a9c94d26-c90d-4860-8195-56929e893757}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="src\mp\codecs\plgspeex\plgspeex-msvc16.vcxproj">
+    <ProjectReference Include="src\mp\codecs\plgspeex\plgspeex-msvc.vcxproj">
       <Project>{4f7fda11-42a4-4556-a631-15aa785cd1c1}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="src\mp\codecs\plgtones\plgtones-msvc16.vcxproj">
+    <ProjectReference Include="src\mp\codecs\plgtones\plgtones-msvc.vcxproj">
       <Project>{f3bca14e-f24d-4570-833e-8c20c4c393f7}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

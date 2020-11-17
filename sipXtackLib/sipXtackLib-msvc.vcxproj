@@ -17,7 +17,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0D0CE4BC-3884-4ABE-9795-8CCA6C3BC646}</ProjectGuid>
     <RootNamespace>sipXtackLib-msvc16</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>sipXtackLib</ProjectName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,14 +46,6 @@
   <PropertyGroup>
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
@@ -70,7 +61,6 @@
       <PrecompiledHeaderOutputFile>.\Release/sipXtackLib.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation />
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <CompileAs>Default</CompileAs>
@@ -80,7 +70,6 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)sipXtackLib.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Lib>
@@ -99,7 +88,6 @@
       <PrecompiledHeaderOutputFile>.\Debug/sipXtackLib.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation />
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
       <BrowseInformation />
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -111,7 +99,6 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)sipXtackLib.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Lib>
@@ -625,10 +612,10 @@
     <ClInclude Include="include\resparse\wnt\utilNT.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\sipXportLib\sipXportLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXportLib\sipXportLib-msvc.vcxproj">
       <Project>{14631055-9d3f-47e5-b6a7-16bfc0cc8091}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\sipXsdpLib\sipXsdpLib-msvc16.vcxproj">
+    <ProjectReference Include="..\sipXsdpLib\sipXsdpLib-msvc.vcxproj">
       <Project>{e1d81ea9-4ac3-4cf5-b600-090fd822b1f6}</Project>
     </ProjectReference>
   </ItemGroup>

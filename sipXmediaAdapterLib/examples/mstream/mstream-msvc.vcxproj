@@ -46,13 +46,9 @@
     <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -93,7 +89,6 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;pcre.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>bin\mstream.exe</OutputFile>
       <AdditionalLibraryDirectories>..\..\..\..\pcre\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -110,23 +105,23 @@
     <ClCompile Include="mstream.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sipXmediaLib\sipXmediaLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\..\sipXmediaLib\sipXmediaLib-msvc.vcxproj">
       <Project>{0ec8287a-481e-45dc-8f95-bad940ae1038}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\sipXportLib\sipXportLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\..\sipXportLib\sipXportLib-msvc.vcxproj">
       <Project>{14631055-9d3f-47e5-b6a7-16bfc0cc8091}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\sipXsdpLib\sipXsdpLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\..\sipXsdpLib\sipXsdpLib-msvc.vcxproj">
       <Project>{e1d81ea9-4ac3-4cf5-b600-090fd822b1f6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\sipXtackLib\sipXtackLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\..\sipXtackLib\sipXtackLib-msvc.vcxproj">
       <Project>{0d0ce4bc-3884-4abe-9795-8cca6c3bc646}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\sipXmediaAdapterLib-msvc16.vcxproj">
+    <ProjectReference Include="..\..\sipXmediaAdapterLib-msvc.vcxproj">
       <Project>{9501c518-8693-42f3-86a4-39b14983ec6c}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
