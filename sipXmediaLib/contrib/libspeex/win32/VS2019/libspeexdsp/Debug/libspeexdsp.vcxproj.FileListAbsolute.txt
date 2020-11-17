@@ -1,1 +1,0 @@
-C:\work\sipX\sipXmediaLib\contrib\libspeex\win32\VS2019\libspeexdsp\Debug\libspeexdsp.pdb

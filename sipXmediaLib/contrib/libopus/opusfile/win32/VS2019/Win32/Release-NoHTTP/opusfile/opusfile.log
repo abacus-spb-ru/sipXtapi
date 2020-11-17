@@ -1,7 +1,0 @@
-﻿  http.c
-  info.c
-  internal.c
-  opusfile.c
-  stream.c
-  wincerts.c
-  opusfile.vcxproj -> C:\work\sipX\sipXmediaLib\contrib\libopus\opusfile\win32\VS2019\Win32\Release-NoHTTP\opusfile.lib
