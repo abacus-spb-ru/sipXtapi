@@ -19,7 +19,6 @@
     <RootNamespace>sipXcallLibTest-msvc16</RootNamespace>
     <ProjectName>sipXcallLibTest</ProjectName>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>$(BuildToolSet)</PlatformToolset>

@@ -10,11 +10,10 @@
   </PropertyGroup>  
 
   <PropertyGroup>
-    <OutDir Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)\bin\</OutDir>
-    <OutDir Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\</OutDir>
-    <OutDir Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\</OutDir>
-    <TargetName>$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration)</TargetName>
-    <IntDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(BuildToolset)-$(Configuration)\</IntDir>
+    <OutDir Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir>
+    <OutDir Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir>
+    <OutDir Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)\bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   
   <ItemDefinitionGroup>
@@ -27,10 +26,11 @@
       <SDLCheck>false</SDLCheck>
     </ClCompile>
     <Lib>
-      <OutputFile>$(SolutionDir)\bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration).lib</OutputFile>
+      <OutputFile>$(SolutionDir)\bin\$(ProjectName).lib</OutputFile>
     </Lib>
     <Link>
-      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(BuildToolset)-$(Configuration).exe</OutputFile>
+      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(ProjectName).exe</OutputFile>
+      <OutputFile Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\$(ProjectName).dll</OutputFile>
       <GenerateWindowsMetadata Condition="'$(TargetExt)'=='.lib'">false</GenerateWindowsMetadata>
     </Link>
   </ItemDefinitionGroup>

@@ -20,7 +20,6 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectName>libgsm</ProjectName>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <PlatformToolset>$(BuildToolSet)</PlatformToolset>
