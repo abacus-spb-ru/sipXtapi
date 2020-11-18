@@ -58,7 +58,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\..\pcre\include;include;..\sipXportLib\include;..\sipXsdpLib\include;..\sipXtackLib\include;..\sipXmediaLib\include;..\sipXmediaAdapterLib\interface;..\sipXmediaAdapterLib\sipXmediaMediaProcessing\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(PcreIncludePath);include;..\sipXportLib\include;..\sipXsdpLib\include;..\sipXtackLib\include;..\sipXmediaLib\include;..\sipXmediaAdapterLib\interface;..\sipXmediaAdapterLib\sipXmediaMediaProcessing\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PCRE_STATIC;NDEBUG;WIN32;_WINDOWS;LOG_TO_FILE;_USRDLL;SIPXTAPI_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -76,9 +76,9 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>Ws2_32.lib;pcre.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;$(PcreLibrary);winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\pcre\lib;lib;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Release;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PcreLibraryPath);lib;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Release;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile />
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
@@ -115,7 +115,7 @@ copy include\tapi\sipXtapiEvents.h examples\include\tapi
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\pcre\include;include;..\sipXportLib\include;..\sipXsdpLib\include;..\sipXtackLib\include;..\sipXmediaLib\include;..\sipXmediaAdapterLib\interface;..\sipXmediaAdapterLib\sipXmediaMediaProcessing\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(PcreIncludePath);include;..\sipXportLib\include;..\sipXsdpLib\include;..\sipXtackLib\include;..\sipXmediaLib\include;..\sipXmediaAdapterLib\interface;..\sipXmediaAdapterLib\sipXmediaMediaProcessing\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>PCRE_STATIC;_DEBUG;WIN32;_WINDOWS;LOG_TO_FILE;_USRDLL;SIPXTAPI_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -131,9 +131,9 @@ copy include\tapi\sipXtapiEvents.h examples\include\tapi
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>Ws2_32.lib;pcre.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ws2_32.lib;$(PcreLibrary);winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\..\pcre\lib;lib;..\sipXmediaLib\contrib\libgsm\lib;..\sipXmediaLib\contrib\libspeex\lib;..\..\libiLBC\Debug;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Debug;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PcreLibraryPath);lib;..\sipXmediaLib\contrib\libgsm\lib;..\sipXmediaLib\contrib\libspeex\lib;..\..\libiLBC\Debug;..\..\IPP\5.1\ia32\lib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\application\usc_speech_codec\Debug;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\bin\ia32\lib;..\..\IPP\5.1\ia32\stublib;..\..\IPP\ipp_sample\speech-coding\win_speech-coding\codec\vm\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libcmt.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ModuleDefinitionFile />
       <GenerateDebugInformation>true</GenerateDebugInformation>

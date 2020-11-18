@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ImportGroup Label="PropertySheets">
-  </ImportGroup>
+	<PropertyGroup>    
+		<PcreIncludePath>$(SolutionDir)..\pcre-win-build\include\</PcreIncludePath>
+		<PcreLibraryPath>$(SolutionDir)..\pcre-win-build\build-VS2017\Release\</PcreLibraryPath>
+		<PcreLibrary>libpcre-static.lib</PcreLibrary>
+	</PropertyGroup>  
 
-  <PropertyGroup>    
-    <PreprocessorDef></PreprocessorDef>
-    <DefaultToolset>v141</DefaultToolset>
-	<BuildToolset>v141</BuildToolset>
-  </PropertyGroup>  
+	<PropertyGroup>    
+		<PreprocessorDef></PreprocessorDef>
+		<DefaultToolset>v141</DefaultToolset>
+		<BuildToolset>v141</BuildToolset>
+	</PropertyGroup>  
 
-  <PropertyGroup>
-    <!--OutDir Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
-    <!--OutDir Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
-    <!--OutDir Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)\bin\$(Platform)\$(Configuration)</OutDir-->
-    <IntDir>$(SolutionDir)bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\</IntDir>
-	<ProfileGuidedDatabase>$(SolutionDir)bin\output\$(ProjectName)-$(BuildToolset)-$(Platform)-$(Configuration)\PGB</ProfileGuidedDatabase>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutDir>$(SolutionDir)bin\output\$(ProjectName)\$(Platform)\$(Configuration)</OutDir>
+		<IntDir>$(SolutionDir)bin\output\$(ProjectName)\$(BuildToolset)-$(Platform)-$(Configuration)\</IntDir>
+		<ProfileGuidedDatabase>$(SolutionDir)bin\output\$(ProjectName)\$(BuildToolset)-$(Platform)-$(Configuration)\PGB</ProfileGuidedDatabase>
+	</PropertyGroup>
   
 	<PropertyGroup>
 		<!-- Latest Target Version property -->
@@ -24,25 +25,23 @@
 		<TargetPlatformVersion>$(WindowsTargetPlatformVersion)</TargetPlatformVersion>
 	</PropertyGroup>
   
-  <ItemDefinitionGroup>
-    <ClCompile>
-      <BrowseInformation>true</BrowseInformation>
-      <WarningLevel>Level4</WarningLevel>
-      <CompileAs>Default</CompileAs>
-      <CompileAsWinRT>false</CompileAsWinRT>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <SDLCheck>false</SDLCheck>
-    </ClCompile>
-    <Lib>
-      <OutputFile>$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
-    </Lib>
-    <Link>
-      <OutputFile Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
-      <OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).exe</OutputFile>
-      <OutputFile Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).dll</OutputFile>
-      <GenerateWindowsMetadata Condition="'$(TargetExt)'=='.lib'">false</GenerateWindowsMetadata>
-    </Link>
-  </ItemDefinitionGroup>
- 
-
+	<ItemDefinitionGroup>
+		<ClCompile>
+		  <BrowseInformation>true</BrowseInformation>
+		  <WarningLevel>Level4</WarningLevel>
+		  <CompileAs>Default</CompileAs>
+		  <CompileAsWinRT>false</CompileAsWinRT>
+		  <PrecompiledHeader>NotUsing</PrecompiledHeader>
+		  <SDLCheck>false</SDLCheck>
+		</ClCompile>
+		<Lib>
+			<OutputFile>$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
+		</Lib>
+		<Link>
+			<OutputFile Condition="'$(TargetExt)'=='.lib'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
+			<OutputFile Condition="'$(TargetExt)'=='.exe'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).exe</OutputFile>
+			<OutputFile Condition="'$(TargetExt)'=='.dll'">$(SolutionDir)bin\$(Platform)\$(Configuration)\$(ProjectName).dll</OutputFile>
+			<GenerateWindowsMetadata Condition="'$(TargetExt)'=='.lib'">false</GenerateWindowsMetadata>
+		</Link>
+	</ItemDefinitionGroup>
 </Project>
