@@ -9,7 +9,7 @@ see http://sipxwiki.sipez.com/wiki/SipX_Android_Build_Environment
 Windows Build Hints
 ===================
 
-Please see the instructions in the INSTALL doc in sipXportLib for all the required 3rd party dependencies.  Next, open sipXtapi.sln project within the sipXcallLib project.  This project will build sipXtapi, PlaceCall, ReceiveCall, and sipXezPhone.  You may need to copy the "sipXtapi[d].dll" into your working directory before you can run PlaceCall or ReceiveCall.  sipXezphone has a post-process build setup that copies those DLLs for you.
+To set the version of the toolset and the path to the pcre library, use the config-msvc/sipXtapi.props file.
 
 Linux Build Hints
 =================
